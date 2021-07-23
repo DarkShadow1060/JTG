@@ -65,6 +65,8 @@
 
 .nav1 {
     display: inline-block;
+    position : relative;
+    top : 5px;
 }
 
 #btn1{
