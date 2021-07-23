@@ -1,0 +1,95 @@
+#div1{
+    background-image: linear-gradient(120deg, white,#f9f6f1);
+}
+
+#home{
+    display: inline-block;
+}
+
+#img1{
+    position: relative;
+    left: 22%;
+}
+
+#logo{
+    display: inline-block;
+}
+
+#nav{
+    float:left;
+    padding: 5px 11% ;
+    display: inline-block;
+}
+
+#subscribe {
+    width: 100px;
+    height: 5%;
+    padding : 5px ;
+    position: relative;
+    right : -50%;
+    top : 5%;
+    background-color: #f36c2d;
+    border-radius: 4px;
+    color:#ffffff;
+
+}
+
+.topbar-menu{
+    float: right;
+    width: 745px;
+    height: 40px;
+
+}
+
+.topbar-menu-style{
+        font-weight: bold;
+        font-size: 90%;
+        float: left;
+        padding: 12px 30px;
+        color: black;
+        text-decoration: none;
+        border-width:0px 0px 0px 0px;
+        border-color: orange orange orange orange;
+        border-style:solid;
+}
+
+.topbar-menu-style:hover{
+    color: orange;
+    border-width:0px 0px 1px 0px;
+}
+
+#top-bar{
+    display: inline-block;
+    float : right;
+}
+
+.nav1 {
+    display: inline-block;
+}
+
+#btn1{
+
+}
+
+#btn2{
+    
+}
+
+#btn3{
+    
+}
+
+#btn4{
+    
+}
+
+#btn5{
+   
+}
+
+.btns{
+    text-align: center;
+    padding : 5px;
+    height: 3%;
+    width : 60px;   
+}
