@@ -1,3 +1,4 @@
+
 body{
     margin: 0%;
     padding: 0%;
@@ -45,7 +46,7 @@ body{
 #nav{
     float:left;
     padding: 5px 11% ;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #subscribe {
@@ -109,13 +110,13 @@ body{
     position : relative;
     bottom : 80px;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 65%;
+    width: 70%;
     border-color: #f36c2d;
-    border-style:groove;
-    background-color: aqua;
-    
+    border-style:none;
+    background-color: white;
+    box-shadow:0 0 1.5px 1px rgb(180, 173, 173); 
 }
 
 .btns{
@@ -129,8 +130,88 @@ body{
     color:#ffffff; 
 }
 
+.btns1{
+    /* text-align: center; */
+    padding : 5px 10px;
+    width: auto;
+    height: 40px;
+    background-color: #ffffff;
+    border-style: double;
+    border-color: #f36c2d;
+    border-radius: 4px;
+    color:#f36c2d;
+}
+
+
 #view{
+    text-align: center;
+    float : right;
+    position: absolute;
+    right: 4%;
+}
+
+.blogimg{
+    display: inline-block;
+}
+
+.blogHeading{
+    float :left;
+    width: 65%;
+    font-size:  22px;
+    height:0px;
+    /* margin: 0% 0% 0% 0%; */
+    padding: 0% 0%;
+}
+
+.tags{
+    font-weight: 500;
+    font-size: small;
+    color:  #ccc3c3;
+    height: 14%;
+    border-left:  1px solid ;   
+    white-space:pre-line;
+    padding-left:25px;
+     width: 25%;
+     position: absolute;
+    right: 0%; 
+}
+#tag1{
+    top:18%;
+}
+#tag2{
+    top:44%;
+}
+#tag3{
+    top : 70%;
+}
+.blog{
+    padding-left: 5px;
+    width : 50rem ;
+    font-size: smaller;
+    font-weight: 600;
+    display: grid;
+    /* float: center; */
+    
+}
+.blogs{
+   display: inline-flex;
+}
+.paragraph{
+    float: left;
+    width: 65%;
+}
+.paragraph>p{
+    margin:0%;
+}
+.btns-right{
+    text-align: center;
+    padding : 5px;
+    width: 120px;
+    height: 40px;
+    background-color: #f36c2d;
+    border-style: none;
+    border-radius: 4px;
+    color:#ffffff; 
     position: relative;
-    bottom: 5px;
-    left: 200%;
+    left: 84%;
 }
