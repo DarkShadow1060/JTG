@@ -116,9 +116,8 @@ body{
     border-color: #f36c2d;
     border-style:none;
     background-color: white;
-    box-shadow:0 0 1.5px 1px rgb(180, 173, 173); 
+    box-shadow:0 0 1.5px 1px #e2dfdf; 
 }
-
 .btns{
     text-align: center;
     padding : 5px;
@@ -142,6 +141,10 @@ body{
     color:#f36c2d;
 }
 
+.btns2{
+    border-style: none;
+    background-color: #f9f6f1;
+}
 
 #view{
     text-align: center;
@@ -190,7 +193,6 @@ body{
     font-size: smaller;
     font-weight: 600;
     display: grid;
-    /* float: center; */
     
 }
 .blogs{
@@ -202,6 +204,7 @@ body{
 }
 .paragraph>p{
     margin:0%;
+    color: #adadad;
 }
 .btns-right{
     text-align: center;
@@ -214,4 +217,34 @@ body{
     color:#ffffff; 
     position: relative;
     left: 84%;
+}
+.posts{
+    margin: auto;
+    width  : 85%;
+}
+.post{
+    width: 25%;
+    display: inline-block;
+    padding: 25px;
+    border-radius: 2.5px;
+    box-shadow:0 0 1.5px 1px #e2dfdf; 
+    background: white;
+    margin-right: 30px;
+}
+.postblock{
+    width: 95%;
+    padding-left: 6%;
+}
+.header{
+    position: relative;
+    right: 8%;
+    border-left: solid orange 4px;
+    height: 50px;
+    padding-left: 2%;
+}
+
+h4{
+    display: inline-block;
+    color: #f36c2d;
+    margin: 0mm;
 }
