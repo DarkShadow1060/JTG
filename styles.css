@@ -249,29 +249,184 @@ h4{
     margin: 0mm;
 }
 .subscribe-us{
+    margin: auto;
     position: relative;
-    left: 25%;
+    top: 50px;
+    padding: 15px;
     width: 50%;
 }
 .inputmail{
     font-family: Arial, Helvetica, sans-serif;
-    height: 34px;
+    height: 40px;
+    border-radius: 3px;
     width: 40%;
     border-style: none;
     background-color: hsl(0, 3%, 80%);
 }
 .subscribe-us>p{
     color: grey;
+    padding: 5%;
+    margin: auto;
 }
 .pictures{
-    width: 100%;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    display: inline-block;
 }
 
 .pic1{
     width: 20%;
-    float: left;
+    display: flexbox;
 }
 .pic2{
     width: 20%;
-    float: left;
+    display: flexbox;
+    position: relative;
+    left: 25%;
+}
+
+.pic3{
+    width: 20%;
+    display: flexbox;
+    position: relative;
+    left: 50%;
+}
+
+.pic4{
+    width: 20%;
+    display: flexbox;
+    position: relative;
+    left: 75%;
+}
+.imgpc1{
+    transform: scale(1.1);
+}
+.imgpc2{
+    transform: scale(1.1);
+    position: relative;
+    bottom: 2px;
+}
+#image1{
+    position: relative;
+    bottom: 12px;
+}
+#image3{
+    position: relative;
+    bottom: 22px;
+}
+#image4{
+    position: relative;
+    bottom: 10px;
+}
+.bodyfooter{
+    position: relative;
+    top: 40%;
+    margin-top: 5%;
+}
+.footer{
+    margin: auto;
+    width: 80%;
+    font-size: small;
+   font-weight: 500;
+}
+.footer>h3{
+   color: black !important;
+}
+.Pages>a{
+   text-decoration: none !important;
+   display: block;
+   margin-top: 1rem;
+   color: grey  ;
+}
+.Recents>a  {
+   text-decoration: none !important;
+   display: block;
+   margin-top:1rem ;
+   color: grey  ;
+}
+ .info{
+    width: 30%;
+   float: left;
+   margin:0.5rem ;
+ }
+.info>p{
+   color: grey;
+
+}
+.social>img{
+   
+}
+
+ .Recents{
+   float: left;
+   width: 20%;
+   margin:0.5rem ;
+}
+ .Pages{
+   float: left;
+   width: 20%;
+
+   margin:0.5rem ;
+ }
+.Parteners{
+   float: left;
+   width: 20%;
+   margin:0.5rem ;
+
+
+}
+.Parteners>img{
+   display: block;
+   margin-top: 1rem;
+}
+#fb{
+    /* width: 1px; */
+    display: inline-block;
+    margin-right: 20px;
+    width: 20px;
+    padding: 15px;
+     text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ff5300;
+}
+#insta{
+    display: inline-block;
+    margin-right: 20px;
+    width: 20px;
+    padding: 15px;
+     text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ff5300;
+}
+#linkedin{
+    display: inline-block;
+    margin-right: 20px;
+    width: 20px;
+    padding: 15px;
+     text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ff5300;
+}
+.copyright{
+
+    /* margin: auto; */
+    margin-top: 25%;
+    display: block;
+    text-align: center;
+}
+.para{
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+}
+#cpyid {
+    position: relative;
+    left: 25px;
+    width: 70%;
+    border-top: 3px solid;
+    font-size: 15px;
+    color: grey;
 }
