@@ -1,5 +1,6 @@
  var topbar = document.getElementsByClassName("topbar-menu-style");
  var subscribe = document.getElementById("subscribe");
+ var exp=document.getElementById("exp");
  topbar[0].setAttribute("style", "color: orange;  border-width:0px 0px 1px 0px; ");
 for(var i=0;i<topbar.length;i++){
     topbar[i].addEventListener('click',(event)=>{
@@ -8,12 +9,16 @@ for(var i=0;i<topbar.length;i++){
         }
         event.target.setAttribute("style", "color: orange; border-width:0px 0px 1px 0px; ");
     });
-
 }
 
 subscribe.addEventListener('click',()=>{
     alert("No action performed");
 })
+
+exp.addEventListener('click',()=>{
+    alert("No action performed ");
+})
+
 
 var start=1,end=3 ;
 posts(0)
